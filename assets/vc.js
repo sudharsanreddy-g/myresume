@@ -1,6 +1,6 @@
 
 function updateCounter(){
-fetch("file:///F:/sudharsanresume/index.html/Prod/getVisitorCounter")
+fetch("https://sudharsanreddy-portfolio.netlify.app")
   .then(response => response.text())
   .then((body) => {
     document.getElementById("counter").innerHTML=body
